@@ -12,7 +12,7 @@ public class MathServiceImpl implements MathService {
         int sum = number1 + number2;
 
         if (sum > 100) {
-            throw new NumberBiggerThan100Exception("La suma es de: " + sum);
+            throw new NumberBiggerThan100Exception("Sum is bigger than 100.  Sum result is: " + sum);
         }
 
         return sum;
